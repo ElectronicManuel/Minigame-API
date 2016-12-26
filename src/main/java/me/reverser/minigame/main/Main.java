@@ -12,11 +12,11 @@ public class Main extends JavaPlugin {
 		saveDefaultConfig();
 		//getServer().getPluginManager().registerEvents(new JoinLeaveListener(), this);
 		//getCommand("warn").setExecutor(new WarnExecutor());
-		System.out.println("JoinMessage v" + getDescription().getVersion() + " enabled!");
+		System.out.println(getDescription().getName() + " v" + getDescription().getVersion() + " enabled!");
 	}
 	
 	public void onDisable() {
-		System.out.println("JoinMessage v" + getDescription().getVersion() + " disabled!");
+		System.out.println(getDescription().getName() + " v" + getDescription().getVersion() + " disabled!");
 	}
 	
 }
